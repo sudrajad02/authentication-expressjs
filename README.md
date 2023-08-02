@@ -1,9 +1,12 @@
+```bash
 # install dependencies
 $ pnpm install
+or
+$ npm install
 
 # setting env
 $ edit env.example
-$ edit adjust like your local
+$ edit adjust like your locale
 $ change name .env
 
 # running migration from prisma
@@ -13,3 +16,4 @@ $ npx prisma migrate dev
 $ pnpm start
 or
 $ npm start
+```
